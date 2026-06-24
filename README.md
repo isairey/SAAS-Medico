@@ -2,7 +2,7 @@
 
 <img width="220" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
 
-# 🏥 PADCOM GLOBAL
+# 🏥 SAAS-Medico
 
 ### Plataforma Integral de Gestión Clínica, Anamnesis Inteligente y Seguimiento de Pacientes 🚀
 
