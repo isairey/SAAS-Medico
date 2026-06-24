@@ -515,7 +515,7 @@ PADCOM GLOBAL fue desarrollado para:
 
 ---
 
-# 👨‍💻 Fundador
+# 👨‍💻 Desarrollador
 
 <div align="center">
 
@@ -547,6 +547,6 @@ Proyecto desarrollado con fines empresariales, investigación clínica y transfo
 
 <div align="center">
 
-### 🏥 PADCOM GLOBAL — Tecnología inteligente para una nueva generación de atención médica.
+### 🏥 SAAS-Medico — Tecnología inteligente para una nueva generación de atención médica.
 
 </div>
