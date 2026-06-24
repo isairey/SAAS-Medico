@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE `alerts` (\n\t`id` int AUTO_INCREMENT NOT NULL,\n\t`patientId` int NOT NULL,\n\t`category` varchar(100) NOT NULL,\n\t`priority` enum('baixa','moderada','alta','critica') NOT NULL DEFAULT 'moderada',\n\t`title` varchar(255) NOT NULL,\n\t`description` text,\n\t`source` varchar(100),\n\t`sourceId` int,\n\t`status` enum('ativo','em_analise','resolvido','descartado') NOT NULL DEFAULT 'ativo',\n\t`assignedToId` int,\n\t`resolvedAt` timestamp,\n\t`resolutionNotes` text,\n\t`createdAt` timestamp NOT NULL DEFAULT (now()),\n\t`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,\n\tCONSTRAINT `alerts_id` PRIMARY KEY(`id`)\n);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway05.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4FgaZRBcfajojX7.root --database DfQvyf2E2RZXkcsfXjNy6E --execute CREATE TABLE `alerts` (\n\t`id` int AUTO_INCREMENT NOT NULL,\n\t`patientId` int NOT NULL,\n\t`category` varchar(100) NOT NULL,\n\t`priority` enum('baixa','moderada','alta','critica') NOT NULL DEFAULT 'moderada',\n\t`title` varchar(255) NOT NULL,\n\t`description` text,\n\t`source` varchar(100),\n\t`sourceId` int,\n\t`status` enum('ativo','em_analise','resolvido','descartado') NOT NULL DEFAULT 'ativo',\n\t`assignedToId` int,\n\t`resolvedAt` timestamp,\n\t`resolutionNotes` text,\n\t`createdAt` timestamp NOT NULL DEFAULT (now()),\n\t`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,\n\tCONSTRAINT `alerts_id` PRIMARY KEY(`id`)\n);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 442
+}

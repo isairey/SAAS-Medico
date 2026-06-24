@@ -1,0 +1,27 @@
+--- a/artifacts/clinica-motor/src/App.tsx
++++ b/artifacts/clinica-motor/src/App.tsx
+@@ imports — adicionar APÓS os imports de páginas existentes
++import PadcomPaciente from "./pages/padcom/paciente";
++import PadcomConcluido from "./pages/padcom/concluido";
++import PadcomAdmin from "./pages/padcom/admin";
++import PadcomAdminDetalhe from "./pages/padcom/admin-detalhe";
++import PadcomAdminDashboard from "./pages/padcom/admin-dashboard";
+
+@@ Routes — adicionar DENTRO do <Routes> existente, APÓS as rotas existentes
++{/* ══════ PADCOM V15 — Anamnese Integrativa ══════ */}
++<Route path="/padcom" element={<PadcomPaciente />} />
++<Route path="/padcom/concluido" element={<PadcomConcluido />} />
++<Route path="/padcom-admin" element={<PadcomAdmin />} />
++<Route path="/padcom-admin/:sessaoId" element={<PadcomAdminDetalhe />} />
++<Route path="/padcom-admin/dashboard" element={<PadcomAdminDashboard />} />
+
+INSTRUÇÕES PARA O DR. REPLIT:
+1. Abra artifacts/clinica-motor/src/App.tsx
+2. Na seção de imports, adicione os 5 imports de páginas PADCOM
+3. Dentro do <Routes>, adicione as 5 rotas PADCOM
+4. IMPORTANTE: /padcom-admin/dashboard DEVE vir ANTES de /padcom-admin/:sessaoId
+   (senão "dashboard" será interpretado como :sessaoId)
+   Ordem correta:
+   <Route path="/padcom-admin/dashboard" element={<PadcomAdminDashboard />} />
+   <Route path="/padcom-admin/:sessaoId" element={<PadcomAdminDetalhe />} />
+5. Salve e verifique: pnpm --filter @workspace/clinica-motor typecheck

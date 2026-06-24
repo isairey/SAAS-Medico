@@ -1,0 +1,20 @@
+--- a/lib/db/src/schema/index.ts
++++ b/lib/db/src/schema/index.ts
+@@ -end of file — adicionar APÓS a última linha de export existente
++
++// ══════════════════════════════════════════════════════════════
++// PADCOM V15 — Anamnese Integrativa Estruturada (Manus Bundle)
++// ══════════════════════════════════════════════════════════════
++export * from "./padcomQuestionarios";
++export * from "./padcomSessoes";
++export * from "./padcomRespostas";
++export * from "./padcomBandas";
++export * from "./padcomAlertas";
++export * from "./padcomAuditoria";
+
+INSTRUÇÕES PARA O DR. REPLIT:
+1. Abra lib/db/src/schema/index.ts
+2. Vá até o final do arquivo
+3. Cole as 6 linhas de export acima (após a última exportação existente)
+4. Salve o arquivo
+5. Rode: pnpm --filter @workspace/db typecheck

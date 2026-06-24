@@ -1,0 +1,21 @@
+CREATE TABLE `clinics` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`slug` varchar(100) NOT NULL,
+	`name` varchar(255) NOT NULL,
+	`logoUrl` text,
+	`primaryColor` varchar(20) DEFAULT '#10553C',
+	`secondaryColor` varchar(20) DEFAULT '#D4AF37',
+	`phone` varchar(20),
+	`email` varchar(320),
+	`address` text,
+	`cnpj` varchar(20),
+	`ownerUserId` int NOT NULL,
+	`isActive` boolean NOT NULL DEFAULT true,
+	`plan` enum('starter','pro','enterprise') NOT NULL DEFAULT 'starter',
+	`maxPatients` int DEFAULT 50,
+	`maxConsultants` int DEFAULT 3,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `clinics_id` PRIMARY KEY(`id`),
+	CONSTRAINT `clinics_slug_unique` UNIQUE(`slug`)
+);

@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1776396357657,
+      "tag": "0000_nervous_peter_quill",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1776396571211,
+      "tag": "0001_needy_deadpool",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1776402992373,
+      "tag": "0002_wakeful_tempest",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1776404895575,
+      "tag": "0003_bumpy_wrecker",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1776406964750,
+      "tag": "0004_silly_talos",
+      "breakpoints": true
+    }
+  ]
+}

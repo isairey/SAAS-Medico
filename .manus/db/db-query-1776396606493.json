@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE `alert_rules` (\n\t`id` int AUTO_INCREMENT NOT NULL,\n\t`name` varchar(255) NOT NULL,\n\t`source` varchar(100) NOT NULL,\n\t`conditionExpr` text NOT NULL,\n\t`alertCategory` varchar(100) NOT NULL,\n\t`alertPriority` enum('baixa','moderada','alta','critica') NOT NULL DEFAULT 'moderada',\n\t`isActive` boolean NOT NULL DEFAULT true,\n\t`createdAt` timestamp NOT NULL DEFAULT (now()),\n\tCONSTRAINT `alert_rules_id` PRIMARY KEY(`id`)\n);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway05.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4FgaZRBcfajojX7.root --database DfQvyf2E2RZXkcsfXjNy6E --execute CREATE TABLE `alert_rules` (\n\t`id` int AUTO_INCREMENT NOT NULL,\n\t`name` varchar(255) NOT NULL,\n\t`source` varchar(100) NOT NULL,\n\t`conditionExpr` text NOT NULL,\n\t`alertCategory` varchar(100) NOT NULL,\n\t`alertPriority` enum('baixa','moderada','alta','critica') NOT NULL DEFAULT 'moderada',\n\t`isActive` boolean NOT NULL DEFAULT true,\n\t`createdAt` timestamp NOT NULL DEFAULT (now()),\n\tCONSTRAINT `alert_rules_id` PRIMARY KEY(`id`)\n);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 543
+}

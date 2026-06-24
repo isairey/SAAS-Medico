@@ -1,0 +1,16 @@
+--- a/artifacts/api-server/src/routes/index.ts
++++ b/artifacts/api-server/src/routes/index.ts
+@@ imports — adicionar APÓS os imports existentes
++import padcomRouter from "./padcom";
+
+@@ router.use — adicionar APÓS os router.use existentes
++router.use(padcomRouter);
+
+INSTRUÇÕES PARA O DR. REPLIT:
+1. Abra artifacts/api-server/src/routes/index.ts
+2. Na seção de imports (topo do arquivo), adicione:
+   import padcomRouter from "./padcom";
+3. Na seção de router.use (corpo do arquivo), adicione:
+   router.use(padcomRouter);
+4. Salve o arquivo
+5. Reinicie o api-server para verificar que não há conflito de rotas
