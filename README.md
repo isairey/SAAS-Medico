@@ -1,447 +1,552 @@
 <div align="center">
 
-<img width="220" src="https://cdn-icons-png.flaticon.com/512/4320/4320337.png" />
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
 
 # 🏥 PADCOM GLOBAL
 
-### Plataforma SaaS de Gestão Clínica, Anamnese Inteligente, Monitoramento de Pacientes e Protocolos Médicos 🚀
+### Plataforma Integral de Gestión Clínica, Anamnesis Inteligente y Seguimiento de Pacientes 🚀
 
 <p align="center">
-  <b>PADCOM GLOBAL</b> é uma plataforma médica empresarial desenvolvida para clínicas, consultórios e equipes multidisciplinares, oferecendo gestão completa de pacientes, anamnese inteligente, monitoramento longitudinal, prescrições, protocolos clínicos, alertas automáticos e multi-tenancy para múltiplas clínicas.
+  <b>PADCOM GLOBAL</b> es una plataforma médica SaaS de nueva generación diseñada para clínicas, consultorios y profesionales de la salud, integrando anamnesis inteligentes, seguimiento longitudinal, prescripciones, protocolos clínicos, alertas automatizadas y gestión multi-clínica en un único ecosistema.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HealthTech-SaaS-0F766E?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Multi--Clinic-Enterprise-059669?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Clinical%20AI-Scoring%20Engine-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/TRPC-Full%20Stack-398CCB?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Healthcare-SaaS-0F766E?style=for-the-badge">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+  <img src="https://img.shields.io/badge/TypeScript-Full%20Stack-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/tRPC-API-2596BE?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="#-sobre-o-padcom-global">Sobre</a> •
-  <a href="#-funcionalidades">Funcionalidades</a> •
-  <a href="#-módulos-principais">Módulos</a> •
-  <a href="#-tecnologias">Tecnologias</a> •
-  <a href="#-instalação">Instalação</a>
+  <a href="#-acerca-de-padcom-global">Acerca de</a> •
+  <a href="#-funcionalidades-principales">Funcionalidades</a> •
+  <a href="#-arquitectura-del-sistema">Arquitectura</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a>
 </p>
 
 </div>
 
 ---
 
-# 🌎 Sobre o PADCOM GLOBAL
+# 🏥 Acerca de PADCOM GLOBAL
 
-O **PADCOM GLOBAL** foi criado para digitalizar e automatizar processos clínicos complexos, integrando em uma única plataforma:
+**PADCOM GLOBAL** es una plataforma clínica inteligente desarrollada para digitalizar procesos médicos, administrativos y comerciales dentro de organizaciones de salud.
 
-* Anamnese Inteligente
-* Gestão de Pacientes
-* Prescrições e Fórmulas
-* Monitoramento Longitudinal
-* Protocolos Clínicos
-* Alertas Automáticos
-* Multi-Clínica (Multi-Tenant)
-* Gestão Comercial e Funil de Conversão
-* Governança Médica
-* Dispatcher de Farmácia
-* Portal do Paciente
+El sistema centraliza toda la información clínica del paciente, permitiendo:
 
-A plataforma permite que profissionais acompanhem a evolução clínica dos pacientes em tempo real através de dashboards avançados e motores de análise clínica.
-
----
-
-# 🧠 Funcionalidades
-
-## 👨‍⚕️ Gestão Clínica
-
-* Cadastro de pacientes
-* Cadastro de profissionais
-* Gestão de consultoras
-* Controle de acesso por perfil
-* Histórico clínico completo
-* Auditoria de ações
+- 🩺 Anamnesis Inteligente
+- 📋 Protocolos Clínicos
+- 💊 Prescripciones Personalizadas
+- 📈 Seguimiento Longitudinal
+- 🚨 Alertas Automáticas
+- 👨‍⚕️ Gestión de Profesionales
+- 🏥 Multi-Clínica
+- 📊 Dashboards Ejecutivos
+- 📑 Auditoría Completa
+- 📱 Portal de Pacientes
 
 ---
 
-## 📋 Anamnese Inteligente
+# 🌟 Funcionalidades Principales
 
-### Via 1 — Integrativa
+## 👤 Gestión de Pacientes
 
-* Formulário multi-etapas
-* Perguntas dinâmicas
-* Autosave automático
-* Explicações técnicas
-* Motor de pontuação clínica
-
-### Via 2 — Estética
-
-* Fluxo independente
-* Questionários customizados
-* Avaliação estética completa
-
-### Via 3 — Relatos Diários
-
-* Manhã
-* Tarde
-* Noite
-
-Registro contínuo de:
-
-* Sono
-* Energia
-* Libido
-* Humor
-* Peso
-* Pressão arterial
-* Foco
+- Registro completo de pacientes
+- Historial clínico centralizado
+- Acceso mediante enlaces seguros
+- Timeline clínico
+- Seguimiento longitudinal
 
 ---
 
-# ⚡ Motor de Score Clínico
+## 📋 Sistema de Anamnesis Inteligente
 
-PADCOM GLOBAL possui um mecanismo próprio de avaliação clínica baseado em:
+### 🧠 Anamnesis Integrativa
 
-* Pesos semânticos
-* Regras determinísticas
-* Faixas clínicas
-* Flags obrigatórias
-* Complexidade do caso
+- Formularios dinámicos
+- Flujo guiado por etapas
+- Autosave automático
+- Evaluación clínica inteligente
 
-### Classificações
+### 💄 Anamnesis Estética
 
-* 🟢 Básico
-* 🟡 Intermediário
-* 🟠 Avançado
-* 🔴 Full
+- Formulario independiente
+- Historial de tratamientos
+- Seguimiento especializado
 
----
+### 📅 Relatos Diarios
 
-# 📈 Monitoramento Longitudinal
+- Registro por periodos:
+  - 🌅 Mañana
+  - ☀️ Tarde
+  - 🌙 Noche
 
-Acompanhe a evolução do paciente através de:
+- Seguimiento de:
 
-* Gráficos de sintomas
-* Evolução laboratorial
-* Radar clínico
-* Timeline médica
-* Indicadores de desempenho
-
-### Períodos
-
-* 30 dias
-* 60 dias
-* 90 dias
+  - Sueño
+  - Energía
+  - Peso
+  - Presión arterial
+  - Libido
+  - Concentración
+  - Estado de ánimo
 
 ---
 
-# 💊 Gestão de Prescrições
+# 🧠 Motor Inteligente de Score Clínico
 
-## Fórmulas
+PADCOM incorpora un sistema avanzado de análisis clínico basado en reglas semánticas.
 
-* Criação de protocolos
-* Componentes personalizados
-* Prescrições compostas
-* Histórico completo
+## Funcionalidades
 
-## Medicamentos
+- Cálculo automático de score (0-100)
+- Clasificación clínica automática
+- Acciones sugeridas
+- Detección de banderas clínicas
+- Evaluación de complejidad
 
-* Distribuição por turno
-* Controle de dosagem
-* Total diário automático
-* Interações medicamentosas
+### Niveles
 
----
-
-# 🚨 Sistema Inteligente de Alertas
-
-Alertas automáticos para:
-
-* Reações adversas
-* Exames alterados
-* Polifarmácia
-* Sinais clínicos críticos
-* Flags obrigatórias
-
-Categorias:
-
-* Baixa
-* Média
-* Alta
-* Urgente
+| Nivel | Score |
+|---------|---------|
+| Básico | 0 - 20 |
+| Intermedio | 21 - 50 |
+| Avanzado | 51 - 80 |
+| Full | 81 - 100 |
 
 ---
 
-# 🏥 Multi-Clínica Enterprise
+# 🚨 Sistema de Alertas Clínicas
 
-Sistema preparado para operação SaaS multi-tenant:
+## Alertas Automáticas
 
-### Recursos
+- Reacciones adversas
+- Resultados fuera de rango
+- Riesgo cardiovascular
+- Polifarmacia
+- Eventos críticos
 
-* Múltiplas clínicas
-* Branding personalizado
-* Logo própria
-* Cor institucional
-* Portal exclusivo
-* Escopo isolado por clínica
+## Gestión de Prioridades
 
----
-
-# 👥 Gestão de Equipes
-
-## Perfis
-
-* Consultora
-* Enfermagem
-* Médico Assistente
-* Supervisor
-
-### Recursos
-
-* Fila de atendimento
-* Atribuição automática
-* Controle de atendimentos
-* Segmentação por perfil
+- 🔵 Baja
+- 🟡 Media
+- 🟠 Alta
+- 🔴 Urgente
 
 ---
 
-# 📄 Protocolos e PDFs
+# 💊 Gestión de Prescripciones
 
-Geração automática de:
+## Prescripciones Inteligentes
 
-* Protocolos
-* Relatórios
-* Anamneses
-* Documentos clínicos
-
-### Inclui
-
-* Assinatura médica
-* CRM
-* Score clínico
-* Flags
-* Histórico
-
-Exportação em PDF via jsPDF.
+- Fórmulas personalizadas
+- Componentes configurables
+- Seguimiento de adherencia
+- Relatos asociados
+- Control de evolución
 
 ---
 
-# 📊 Dashboard Executivo
+## 💊 Matriz de Medicamentos
 
-## Métricas em Tempo Real
+Control completo de medicación:
 
-* Pacientes ativos
-* Protocolos enviados
-* Alertas pendentes
-* Leads capturados
-* Conversões
-* Receita estimada
+- Dosificación
+- Frecuencia
+- Horarios
+- Interacciones
+- Polifarmacia
 
-Atualização automática via polling.
+### Distribución
 
----
-
-# 💼 Funil Comercial
-
-### Pipeline
-
-* Iniciou e Parou
-* Alto Interesse
-* Clínico Concluído
-* Financeiro Concluído
-
-### Recursos
-
-* Reativação WhatsApp
-* Forecast comercial
-* Classificação automática
-* Tracking UTM
+- 🌅 Mañana
+- ☀️ Tarde
+- 🌙 Noche
 
 ---
 
-# 💊 Dispatcher de Farmácia
+# 📈 Seguimiento Longitudinal
 
-Integração com farmácias parceiras:
+## Dashboard Clínico
 
-* Envio de prescrições
-* Controle de comissão
-* Rastreamento
-* Status de produção
-* Status de entrega
+Visualización de evolución mediante:
+
+- Gráficos temporales
+- Radar clínico
+- Tendencias
+- Comparativas
+
+### Indicadores
+
+- Sueño
+- Energía
+- Digestión
+- Libido
+- Estado de ánimo
+- Atención
+- Presión arterial
+- Peso
 
 ---
 
-# 📱 Portal do Paciente
+# 🏥 Multi-Clínica (Multi-Tenant)
 
-Acesso via link seguro:
+PADCOM soporta múltiples organizaciones de salud.
+
+## Características
+
+- Clínicas independientes
+- Branding personalizado
+- URLs únicas
+- Roles separados
+- Datos aislados
+
+### Planes
+
+- Starter
+- Pro
+- Enterprise
+
+---
+
+# 👨‍⚕️ Gestión de Profesionales
+
+## Roles
+
+- Enfermería
+- Consultora
+- Médico Asistente
+- Supervisor
+- Administrador
+
+### Funciones
+
+- Asignación de pacientes
+- Validación clínica
+- Gestión de protocolos
+- Control de accesos
+
+---
+
+# 📄 Protocolos y PDF
+
+Generación automática de:
+
+- Protocolos médicos
+- Informes clínicos
+- Resultados de anamnesis
+- Reportes de evolución
+
+## Exportación
+
+- PDF
+- CSV
+- XLSX
+
+---
+
+# 📞 Comunicación con Pacientes
+
+## WhatsApp Integrado
+
+- Envío de protocolos
+- Recordatorios
+- Medicación diaria
+- Seguimiento clínico
+
+---
+
+## Portal del Paciente
+
+Acceso seguro mediante token único:
 
 ```bash
-/c/:slug/:token
+/c/{clinica}/{token}
 ```
 
-Permite:
+Funcionalidades:
 
-* Visualizar prescrições
-* Enviar relatos
-* Registrar efeitos
-* Acompanhar evolução
-* Receber protocolos
-
----
-
-# 🔐 Governança Clínica
-
-Sistema preparado para ambientes regulados:
-
-* Auditoria completa
-* Validação humana
-* Delegação profissional
-* Roteamento automático
-* Controle de CRM
-* Fluxos configuráveis
+- Ver tratamientos
+- Completar anamnesis
+- Reportar síntomas
+- Consultar prescripciones
 
 ---
 
-# 🛠️ Tecnologias
+# 📊 Dashboard Ejecutivo
+
+Visualización global de:
+
+- Pacientes activos
+- Alertas críticas
+- Prescripciones
+- Funnel comercial
+- Actividad médica
+
+---
+
+# 💼 Gestión Comercial
+
+PADCOM integra herramientas CRM para captación y seguimiento.
+
+## Canales de Entrada
+
+- Meta Ads
+- Google Ads
+- WhatsApp
+- Sitio Web
+- Consultoras
+- Referidos
+- Vendedores
+
+### Métricas
+
+- Leads
+- Conversión
+- Abandono
+- Interés alto
+- Forecast comercial
+
+---
+
+# 🔐 Seguridad y Gobernanza
+
+## Auditoría Completa
+
+Registro de:
+
+- Accesos
+- Modificaciones
+- Validaciones
+- Acciones clínicas
+
+---
+
+## Validación Humana
+
+Configuración avanzada para:
+
+- Casos complejos
+- Oncología
+- Gestantes
+- Polifarmacia
+- Casos críticos
+
+---
+
+# 🛠 Tecnologías Utilizadas
 
 ## Frontend
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,typescript,vite,tailwind" />
+  <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind" />
 </p>
 
-* React
-* TypeScript
-* Tailwind CSS
-* Recharts
-* Wouter
+- React
+- TypeScript
+- Tailwind CSS
+- Recharts
+- Wouter
 
 ---
 
 ## Backend
 
 <p>
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express" />
 </p>
 
-* Node.js
-* Express
-* tRPC
-* REST APIs
+- Node.js
+- Express
+- tRPC
+- Zod
+- Drizzle ORM
 
 ---
 
-## Banco de Dados
+## Base de Datos
 
 <p>
-<img src="https://skillicons.dev/icons?i=postgres,mysql" />
+  <img src="https://skillicons.dev/icons?i=postgresql" />
 </p>
 
-* PostgreSQL
-* MySQL
-* Drizzle ORM
+- PostgreSQL
+- Migraciones SQL
+- Multi-Tenant Architecture
 
 ---
 
-## DevOps
+## Infraestructura
 
 <p>
-<img src="https://skillicons.dev/icons?i=docker,github,git,linux" />
+  <img src="https://skillicons.dev/icons?i=docker,linux,git,github" />
 </p>
 
-* Docker
-* GitHub
-* CI/CD
-* Linux
+- Docker
+- Linux
+- Git
+- GitHub Actions
 
 ---
 
-# 📂 Estrutura do Projeto
+# 📂 Arquitectura del Sistema
 
 ```bash
 PADCOM-GLOBAL/
 │
-├── client/
-│   ├── pages/
-│   ├── components/
-│   ├── hooks/
-│   └── layouts/
+├── apps/
+│   ├── dashboard/
+│   ├── patient-portal/
+│   └── admin/
 │
 ├── server/
 │   ├── routers/
 │   ├── services/
 │   ├── scoring-engine/
 │   ├── alerts/
-│   └── integrations/
+│   ├── prescriptions/
+│   └── governance/
+│
+├── database/
+│   ├── migrations/
+│   ├── schema/
+│   └── seeds/
 │
 ├── shared/
-│   ├── schemas/
-│   └── types/
 │
-├── docs/
-│   └── ANASTOMOSE-NUCLEO.md
+├── tests/
 │
-└── README.md
+└── docs/
 ```
 
 ---
 
-# 🧪 Testes
+# 🧪 Calidad y Testing
 
-### Cobertura Atual
+Actualmente el proyecto cuenta con:
 
-✅ 245 testes passando
+### ✅ 245+ pruebas automatizadas
 
-Incluindo:
+Cobertura de:
 
-* Routers
-* Multi-Tenancy
-* Scoring Engine
-* Clinical Flags
-* Funil Comercial
-* Dashboard
-* Protocolos
-* Segurança
+- APIs
+- Routers
+- Validaciones
+- Seguridad
+- Multi-tenancy
+- Motor de Score
+- Prescripciones
+- Funnel Comercial
+- Alertas
+
+---
+
+# 🚀 Instalación
+
+## 1️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/isairey/PADCOM-GLOBAL
+```
+
+---
+
+## 2️⃣ Instalar dependencias
+
+```bash
+pnpm install
+```
+
+---
+
+## 3️⃣ Configurar variables
+
+```env
+DATABASE_URL=
+JWT_SECRET=
+WHATSAPP_API_KEY=
+```
+
+---
+
+## 4️⃣ Ejecutar migraciones
+
+```bash
+pnpm db:migrate
+```
+
+---
+
+## 5️⃣ Iniciar aplicación
+
+```bash
+pnpm dev
+```
+
+---
+
+# 🎯 Objetivos del Proyecto
+
+PADCOM GLOBAL fue desarrollado para:
+
+- Digitalizar procesos clínicos
+- Automatizar evaluaciones
+- Mejorar el seguimiento del paciente
+- Reducir errores humanos
+- Escalar operaciones médicas
+- Implementar medicina basada en datos
 
 ---
 
 # 🚀 Roadmap
 
-## Próximas Integrações
+## Próximas Versiones
 
-* Firebase Push Notifications
-* OneSignal
-* Google Calendar
-* Outlook Calendar
-* Trello API
-* IA para recomendações clínicas
-* Machine Learning para risco clínico
-* Aplicativo Mobile
+- 🤖 IA Predictiva
+- 🧬 Medicina Personalizada
+- 📱 Aplicación Móvil
+- 🧠 Modelos de Machine Learning
+- ☁️ Infraestructura Cloud Nativa
+- 🔔 Push Notifications
+- 📅 Integración Google Calendar
+- 🏥 Marketplace de Clínicas
 
 ---
 
-# 👨‍💻 Fundadores
+# 👨‍💻 Fundador
 
 <div align="center">
 
 <img width="140" src="https://github.com/isairey.png" />
 
-## Isai Reyes Peña
+## Isai Reyes — Full Stack Developer & Healthcare Systems Architect
 
-Full Stack Developer • HealthTech Engineer
-
----
-
-## Irving Zarate Reyes
-
-Systems Analyst • Clinical Process Designer
+Especializado en plataformas SaaS, sistemas ERP, inteligencia artificial aplicada y soluciones tecnológicas para el sector salud.
 
 </div>
 
 ---
 
-# 🌟 PADCOM GLOBAL
+# 🌟 Apoya el Proyecto
 
-Transformando clínicas em plataformas inteligentes através de automação, análise clínica e monitoramento contínuo.
+Si te gusta PADCOM GLOBAL:
 
-### 🏥 Clinical Intelligence • 📊 Analytics • 💊 Protocols • 🌎 Multi-Clinic SaaS
+⭐ Dale una estrella al repositorio  
+🍴 Haz Fork del proyecto  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto desarrollado con fines empresariales, investigación clínica y transformación digital del sector salud.
+
+---
+
+<div align="center">
+
+### 🏥 PADCOM GLOBAL — Tecnología inteligente para una nueva generación de atención médica.
 
 </div>
