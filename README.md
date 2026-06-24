@@ -394,7 +394,7 @@ Configuración avanzada para:
 # 📂 Arquitectura del Sistema
 
 ```bash
-PADCOM-GLOBAL/
+SAAS-Medico/
 │
 ├── apps/
 │   ├── dashboard/
@@ -448,7 +448,7 @@ Cobertura de:
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/isairey/PADCOM-GLOBAL
+git clone https://github.com/isairey/SAAS-Medico
 ```
 
 ---
